@@ -732,7 +732,7 @@ $resolvedSource = Resolve-ProjectSourceRoot `
 $ProjectSourceRoot = $resolvedSource.Root
 
 Ensure-FrontendWorkerFiles -ProjectRoot $ProjectSourceRoot
-Ensure-FrontendHeaderPatch -ProjectRoot $ProjectSourceRoot
+#Ensure-FrontendHeaderPatch -ProjectRoot $ProjectSourceRoot
 
 Write-ConfigSummary `
     -Config $config `
